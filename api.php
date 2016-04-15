@@ -7,7 +7,7 @@ class testDpd{
 	public $api;
 
 	function __construct(){
-		$this->api = new DPD_service('1063000446', '64B00D4CB2AB1D312A359B5766AFC5786E4F0153');
+		$this->api = new DPD_service('MY_NUMBER', 'MY_KEY');
 	}
 	
 	public function createOrder($id, $date){
